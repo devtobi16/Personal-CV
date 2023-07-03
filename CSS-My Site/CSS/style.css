@@ -1,0 +1,124 @@
+body {
+  color: #40514e;
+  text-align: center;
+  margin-top: 50px;
+  padding-top: 100px;
+  background-color: #e4f9f5;
+}
+/* Sites to visit : CSS fontstack ,
+flat icon.com,
+giphy.com*/
+/*try cursive*/
+h1 {
+  font-size: 562.5%;
+  margin: 50px auto 0 auto;
+  color: #66bfbf;
+  /* note: 100% = 16px = 1em */
+  font-family: "Sacramento", cursive;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  color: #66bfbf;
+  padding-bottom: 10px;
+}
+h3 {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+}
+/*go to google,and then copy the link, then paste to the head in the index.html file, and then use the font to get the font from the web*/
+.Job {
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #11999e;
+}
+
+p {
+  line-height: 2;
+  display: block;
+  width: 40%;
+  margin: auto;
+}
+.topCloud {
+  margin-left: 490px;
+}
+
+.mountain {
+  position: absolute;
+  margin-right: 700px;
+}
+.bottomCloud {
+  margin-right: 500px;
+  margin-bottom: 250px;
+}
+.profile {
+  margin-top: 100px;
+}
+.picture {
+  height: 100px;
+  width: 100px;
+}
+.codingimage {
+  height: 170px;
+  width: 170px;
+}
+.contactimage {
+  height: 20px;
+  width: 20px;
+}
+.button {
+  background-color: #66bfbf;
+  width: 200px;
+  height: 50px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  color: #eaf6f6;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  line-height: 50px;
+  border-radius: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #8ad6d6;
+  cursor: pointer;
+}
+
+.button:active {
+  transform: translateY(2px);
+}
+
+.footer-link {
+  color: #11999e;
+  font-size: 1rem;
+  font-weight: normal;
+  text-decoration: none;
+  margin-right: 50px;
+  font-family: "Montserrat", sans-serif;
+}
+.footer-link:hover {
+  color: #eaf6f6;
+}
+.bottom-container {
+  line-height: 3;
+  background-color: #66bfbf;
+  width: 100%;
+  position: absolute;
+  padding: 20px 50px 40px;
+}
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+hr {
+  size: 5px;
+  border-color: grey;
+  border-style: dotted none none none;
+  border-width: 5px;
+  width: 15%;
+  margin: 100px, auto;
+}
